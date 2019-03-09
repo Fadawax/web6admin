@@ -20,7 +20,7 @@
   </section>      
   
   <footer>
-  
+   <?php include('php/footer.php'); ?>
   </footer>
         
  </body>
