@@ -12,7 +12,7 @@
  <body>
  
   <header>
-  
+   <?php include('php/header.php'); ?>
   </header>        
   
   <section>
