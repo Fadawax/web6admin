@@ -9,7 +9,7 @@
   
   <title>Web6Admin</title>
   
-  <link rel= "stylesheet" href= "../css/bootstrap.css">
+  <link rel= "stylesheet" href= "../css/bootstrap.min.css">
   
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/jquery-3.3.1.min.js"></script>

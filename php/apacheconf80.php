@@ -9,7 +9,7 @@
   
   <title>Web6Admin</title>
   
-  <link rel= "stylesheet" href= "../css/bootstrap.css">
+  <link rel= "stylesheet" href= "../css/bootstrap.min.css">
   
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/jquery-3.3.1.min.js"></script>
@@ -60,8 +60,8 @@
                 <input type="text" name="acceptuser" id="acceptuser" class="form-control shadow" placeholder=" Utilisateurs autorises ">              
               </div>
               <div class="form-group text-black"><br>
-                <input type="reset" name="reset" class="btn btn-warning col-md-3 float-left shadow text-dark" value="reset">
-                <input type="submit" name="submit" class="btn btn-success col-md-3 float-right shadow text-dark" value="Generate">
+                <input type="cancel" name="cancel" class="btn btn-danger col-md-3 float-left shadow text-white" value="Cancel">
+                <button type="button" name="button" id="btngenerate" class="btn btn-success col-md-3 float-right shadow text-white" data-toggle="modal" data-target="#myModal">Generate</button>
               <br>
               <br>
               </div>
@@ -73,7 +73,41 @@
     <br>
     <br>
   </section>      
-  
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-info">
+        <h3 class="modal-title text-right">VirtualHost Apache (HTTP)</h3>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body bg-info">
+          <textarea class="form-control shadow-textarea" rows="20" cols="85">
+<VirtualHost *:80>
+  DocumentRoot /data/webs/example.com
+  ServerName example.tld
+  ServerAlias www.example.tld
+
+
+
+</VirtualHost>
+		  </textarea>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer bg-info">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+   
+   
   <footer>
    <?php include('../php/footer.php'); ?>
   </footer>
