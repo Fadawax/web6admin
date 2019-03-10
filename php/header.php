@@ -21,7 +21,7 @@
  
   <header>
   
-    <nav class="navbar fixed-top bg-dark navbar-dark">
+    <nav class="navbar fixed-top bg-dark navbar-dark shadown-lg">
       <a class="navbar-brand" href="#">
       <img src="../docs/logo.png" alt="Logo" style="width:40px;">
       Web6Admin
@@ -29,7 +29,31 @@
     </nav>
 
   </header>        
-
+    <form class="container">
+        <div class="wrapper fadeInDown">
+          <div id="formContent">
+            <!-- Tabs Titles -->
+        
+            <!-- Icon -->
+            <div class="fadeIn first">
+              <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+            </div>
+        
+            <!-- Login Form -->
+            <form>
+              <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+              <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+              <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+        
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+              <a class="underlineHover" href="#">Forgot Password?</a>
+            </div>
+        
+          </div>
+        </div>
+    </form>
  </body>
  
 </html>
