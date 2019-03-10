@@ -20,11 +20,11 @@
  <body>
  
   <header>
-<nav class="navbar fixed-top navbar-dark bg-dark shadow-lg" role="navigation">
-  <a class="navbar-brand" href="#">
+<nav class="navbar navbar-dark fixed-top bg-dark shadow" role="navigation">
+  <h3 class="text-info">
   <img src="../docs/logo.png" alt="Logo" style="width:40px;">
-  Web6Admin
-  </a>
+  <strong>Web6Admin</strong>
+  </h3>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

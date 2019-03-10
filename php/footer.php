@@ -20,7 +20,9 @@
  <body>   
   
   <footer>
-
+	<div class="fixed-bottom bg-dark text-right">
+	  <span class="text-info font-italic"> 2019 - Copyright : Benjamin ROBIN</span>
+	</div>
 
 
   </footer>
