@@ -4,8 +4,8 @@
 
  <head>
  
-  <meta charset="utf-8" />
-  <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   
   <title>Web6Admin</title>
   
@@ -49,9 +49,17 @@
               </div>
               <div class="form-group">
                 <label for="directory" class="text-dark"><strong> Veuillez renseigner le directory : </strong></label><br>
-                <input type="text" name="directory" id="directory" class="form-control shadow" placeholder=" directory "><br>              
+                <input type="text" name="directory" id="directory" class="form-control shadow" placeholder=" directory ">              
               </div>
-              <div class="form-group text-black">
+              <div class="form-group">
+                <label for="acceptip" class="text-dark"><strong> Veuillez renseigner les ip autorisees (laisser vide si pas utile) : </strong></label><br>
+                <input type="text" name="acceptip" id="acceptip" class="form-control shadow" placeholder=" IP autorisees ">              
+              </div>
+              <div class="form-group">
+                <label for="acceptuser" class="text-dark"><strong> Veuillez renseigner les utilisateurs autorises (laisser vide si pas utile) : </strong></label><br>
+                <input type="text" name="acceptuser" id="acceptuser" class="form-control shadow" placeholder=" Utilisateurs autorises ">              
+              </div>
+              <div class="form-group text-black"><br>
                 <input type="reset" name="reset" class="btn btn-warning col-md-3 float-left shadow text-dark" value="reset">
                 <input type="submit" name="submit" class="btn btn-success col-md-3 float-right shadow text-dark" value="Generate">
               <br>
@@ -62,6 +70,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
   </section>      
   
   <footer>
