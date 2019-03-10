@@ -51,7 +51,7 @@
                             </div>
                             <div class="form-group">
                                 <br>
-                                <input type="submit" name="submit" class="btn btn-info shadow float-right" value="Connexion">
+                                <input type="submit" name="submit" class="btn btn-info col-md-4 shadow float-right" value="Connexion">
                                 <br>
                                 <br>
                             </div>
