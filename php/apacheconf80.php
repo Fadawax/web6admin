@@ -86,7 +86,7 @@
 
       <!-- Modal body -->
       <div class="modal-body bg-info">
-          <textarea class="form-control shadow-textarea" rows="20" cols="85">
+          <textarea class="form-control shadow-textarea" rows="20" cols="85" readonly>
 <VirtualHost *:80>
   DocumentRoot /data/webs/example.com
   ServerName example.tld
